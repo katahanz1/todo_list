@@ -1,0 +1,31 @@
+.task-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom: 2px solid black;
+    background-color: #3e3d3d;
+    box-sizing: border-box;
+
+}
+
+.task-text {
+    flex-grow: 1;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.task-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-button:hover {
+    background-color: #ff7875;
+}
+
