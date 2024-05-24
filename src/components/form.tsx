@@ -20,7 +20,7 @@ const Form: React.FC = () => {
             task: input.value
         };
         input.value = "";
-        dispatch(addTask(newItem));
+        dispatch(addTask(newItem))
     }       
 
     
